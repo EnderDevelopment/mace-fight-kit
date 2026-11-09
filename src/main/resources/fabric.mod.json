@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "macefight",
+  "version": "${version}",
+  "name": "Mace Fight",
+  "description": "Adds a command that equips a player for a mace fight.",
+  "authors": ["EnderDevelopment"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.macefight.MaceFightMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
